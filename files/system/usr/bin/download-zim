@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -oue pipefail
+
+echo "Use this binary to download zim libraries"
+
+# http, rsync, scp, ftp
+DOWNLOAD_METHOD=${1:-http}
+
+# TODO: Case statement to download zim libraries
